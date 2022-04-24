@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.calculator-btn
+{
+    @apply bg-slate-800 text-white border-black m-1;
+}

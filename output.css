@@ -492,28 +492,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column-end: 5;
 }
 
-.row-start-1 {
-  grid-row-start: 1;
-}
-
-.row-start-2 {
-  grid-row-start: 2;
+.row-start-4 {
+  grid-row-start: 4;
 }
 
 .row-start-3 {
   grid-row-start: 3;
 }
 
-.row-start-4 {
-  grid-row-start: 4;
+.row-start-2 {
+  grid-row-start: 2;
 }
 
-.row-end-1 {
-  grid-row-end: 1;
-}
-
-.row-end-4 {
-  grid-row-end: 4;
+.row-start-1 {
+  grid-row-start: 1;
 }
 
 .grid {
@@ -526,4 +518,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid-rows-4 {
   grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.calculator-btn {
+  margin: 0.25rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
