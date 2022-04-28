@@ -12,6 +12,14 @@ from any browser and behaves like a handheld, standard calculator.
 We'll introduce the keypad to type in digits ranging from
 0 to 9.
 
+##### Behaviours
+
+Pressing the '0' key while the calculator displays 0 will do nothing.
+
+Pressing the '1' to '9' keys while the calculator displays 0 will change it to the number pressed.
+
+Pressing any number will append that number to the end of the display, until a total of 12 digits are hit, at which point, pressing any number will do nothing.
+
 #### Clear Button
 
 Just like the traditional calculators, this comes with an AC button to clear the display and go back to 0.
