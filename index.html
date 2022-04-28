@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="output.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
-</head>
-<body>
-    <p class="bg-slate-800 text-purple-700">Testing testing</p>
-</body>
+        <link rel="stylesheet" href="output.css">
+
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div>
+            <!-- Calculator display -->
+            <div class="text-right m-1">0</div>
+
+            <!-- Buttons -->
+            <div class="grid grid-cols-5 grid-rows-4">
+
+                <!-- Keypad Area -->
+                <button class="calculator-btn row-start-4 col-start-1">AC</button>
+                <button class="calculator-btn row-start-4 col-start-2">0</button>
+                <button class="calculator-btn row-start-4 col-start-3">.</button>
+
+                <button class="calculator-btn row-start-3 col-start-1">1</button>
+                <button class="calculator-btn row-start-3 col-start-2">2</button>
+                <button class="calculator-btn row-start-3 col-start-3">3</button>
+                
+                <button class="calculator-btn row-start-2 col-start-1">4</button>
+                <button class="calculator-btn row-start-2 col-start-2">5</button>
+                <button class="calculator-btn row-start-2 col-start-3">6</button>
+
+                <button class="calculator-btn row-start-1 col-start-1">7</button>
+                <button class="calculator-btn row-start-1 col-start-2">8</button>
+                <button class="calculator-btn row-start-1 col-start-3">9</button>
+
+                <!-- Operators -->
+                <button class="calculator-btn row-start-1 col-start-4">+</button>
+                <button class="calculator-btn row-start-1 col-start-5">&dash;</button>
+                <button class="calculator-btn row-start-2 col-start-4">*</button>
+                <button class="calculator-btn row-start-2 col-start-5">/</button>
+                <button class="calculator-btn row-start-4 col-start-4 col-end-5">&equals;</button>
+            </div>
+        </div>
+    </body>
+
 </html>
