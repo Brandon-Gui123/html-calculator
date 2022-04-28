@@ -508,6 +508,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-row-start: 1;
 }
 
+.m-1 {
+  margin: 0.25rem;
+}
+
 .grid {
   display: grid;
 }
@@ -518,6 +522,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid-rows-4 {
   grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.text-right {
+  text-align: right;
 }
 
 .calculator-btn {
