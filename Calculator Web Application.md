@@ -24,6 +24,8 @@ Pressing any number will append that number to the end of the display, until a t
 
 Just like the traditional calculators, this comes with an AC button to clear the display and go back to 0.
 
+The AC button also clears any operands that are currently active (i.e. if you pressed + before, pressing AC will reset the calculator's state so that it won't ask for a second operand).
+
 #### Add, Subtract, Multiply, Divide
 
 4 basic operations. To apply one of these operators, enter a number, press any one of these, then enter another number. Afterwards, press the equal button to evaluate and get the result.
