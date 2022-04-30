@@ -39,3 +39,9 @@ For example, after adding 2 numbers and pressing the equal button, you can press
 Pressing the decimal button will place a period where the digit is.
 
 For example, if the display shows 1234, then pressing the decimal button places the decimal after 4. So numbers after 4 belong to the decimal place.
+
+If there are already 12 digits on the display, the decimal button does nothing.
+
+Also, if the decimal button is pressed but no additional digits are entered, then the decimal is ignored in calculations because there is no decimal portion for the number.
+
+If a decimal has already been placed on the display, additional presses of the decimal button are ignored.
