@@ -24,3 +24,8 @@ function tryAddDigit(digit)
         }
     }
 }
+
+function clearCalculatorDisplay()
+{
+    digitsDisplay.textContent = "0";
+}
