@@ -20,21 +20,21 @@
             <div class="grid grid-cols-5 grid-rows-4">
 
                 <!-- Keypad Area -->
-                <button class="calculator-btn row-start-4 col-start-1" onclick="clearCalculatorDisplay()">AC</button>
-                <button class="calculator-btn row-start-4 col-start-2" onclick="tryAddDigit('0')">0</button>
-                <button class="calculator-btn row-start-4 col-start-3">.</button>
+                <button id="ac-button" class="calculator-btn row-start-4 col-start-1" onclick="clearCalculatorDisplay()">AC</button>
+                <button id="0-button" class="calculator-btn row-start-4 col-start-2" onclick="tryAddDigit('0')">0</button>
+                <button id="decimal-button" class="calculator-btn row-start-4 col-start-3">.</button>
 
-                <button class="calculator-btn row-start-3 col-start-1" onclick="tryAddDigit('1')">1</button>
-                <button class="calculator-btn row-start-3 col-start-2" onclick="tryAddDigit('2')">2</button>
-                <button class="calculator-btn row-start-3 col-start-3" onclick="tryAddDigit('3')">3</button>
+                <button id="1-button" class="calculator-btn row-start-3 col-start-1" onclick="tryAddDigit('1')">1</button>
+                <button id="2-button" class="calculator-btn row-start-3 col-start-2" onclick="tryAddDigit('2')">2</button>
+                <button id="3-button" class="calculator-btn row-start-3 col-start-3" onclick="tryAddDigit('3')">3</button>
                 
-                <button class="calculator-btn row-start-2 col-start-1" onclick="tryAddDigit('4')">4</button>
-                <button class="calculator-btn row-start-2 col-start-2" onclick="tryAddDigit('5')">5</button>
-                <button class="calculator-btn row-start-2 col-start-3" onclick="tryAddDigit('6')">6</button>
+                <button id="4-button" class="calculator-btn row-start-2 col-start-1" onclick="tryAddDigit('4')">4</button>
+                <button id="5-button" class="calculator-btn row-start-2 col-start-2" onclick="tryAddDigit('5')">5</button>
+                <button id="6-button" class="calculator-btn row-start-2 col-start-3" onclick="tryAddDigit('6')">6</button>
 
-                <button class="calculator-btn row-start-1 col-start-1" onclick="tryAddDigit('7')">7</button>
-                <button class="calculator-btn row-start-1 col-start-2" onclick="tryAddDigit('8')">8</button>
-                <button class="calculator-btn row-start-1 col-start-3" onclick="tryAddDigit('9')">9</button>
+                <button id="7-button" class="calculator-btn row-start-1 col-start-1" onclick="tryAddDigit('7')">7</button>
+                <button id="8-button" class="calculator-btn row-start-1 col-start-2" onclick="tryAddDigit('8')">8</button>
+                <button id="9-button" class="calculator-btn row-start-1 col-start-3" onclick="tryAddDigit('9')">9</button>
 
                 <!-- Operators -->
                 <button class="calculator-btn row-start-1 col-start-4">+</button>
