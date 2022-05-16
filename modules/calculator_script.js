@@ -29,3 +29,6 @@ function clearCalculatorDisplay()
 {
     digitsDisplay.textContent = "0";
 }
+
+let acButtonEl = document.getElementById("ac-button");
+acButtonEl.onclick = clearCalculatorDisplay;
