@@ -29,3 +29,13 @@ function clearCalculatorDisplay()
 {
     digitsDisplay.textContent = "0";
 }
+
+let acButtonEl = document.getElementById("ac-button");
+acButtonEl.onclick = clearCalculatorDisplay;
+
+let digitButtons = [];
+for (let i = 0; i < 10; i++)
+{
+    digitButtons.push(document.getElementById(i + "-button"));
+    digitButtons[i].onclick = () => tryAddDigit(i.toString());
+}
